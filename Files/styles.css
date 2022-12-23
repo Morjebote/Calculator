@@ -1,0 +1,115 @@
+@font-face {
+  font-family: calculator;
+  src: url(Digital.ttf);
+}
+
+@font-face {
+  font-family: digitron;
+  src: url(ethnocentric.otf);
+}
+
+body {
+  background-color: #232922;
+  text-align: center;
+}
+
+.background {
+  font-size: 0;
+  width: 230px;
+  margin: 100px auto;
+  background-color: #004343;
+  background-image: linear-gradient(135deg, #1E7A7A, #004343 30%);
+  border: solid 5px;
+  border-radius: 15px;
+  border-color: #006666 #002525 #002525 #006666;
+  padding: 0px 10px 20px;
+  box-shadow: 5px 5px 5px black;
+}
+
+.marka {
+  margin: 20px auto;
+  font-family: digitron;
+  font-size: 16px;
+  background-color: silver;
+  background-image: linear-gradient(0deg, #323232, gainsboro);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -webkit-text-stroke: 0.5px silver;
+}
+
+.field {
+  text-align: right;
+  font-family: calculator;
+  font-size: 40px;
+  color: #0F1209;
+  padding: 0 5px;
+  height: 40px;
+  display: block;
+  background-color: #C0E479;
+  border: solid 2px;
+  border-radius: 5px;
+  border-color: #95B05E #CBF27E #CBF27E #95B05E;
+  margin: 0 15px 20px;
+}
+
+button {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  border: solid 2px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  text-shadow: -0.3px -0.3px white;
+}
+
+button:active {
+  text-shadow: 0.3px 0.3px white;
+}
+
+.reset {
+  width: 90px;
+  margin-left: 105px;
+  background-color: gold;
+  border-color: #FFEC6C #B8860B #B8860B #FFEC6C;
+}
+
+.reset:active {
+  border-color: #B8860B #FFEC6C #FFEC6C #B8860B;
+}
+
+.symbol {
+  background-color: #667366;
+  border-color: #899B89 #535C53 #535C53 #899B89;
+}
+
+.symbol:active {
+  border-color: #535C53 #899B89 #899B89 #535C53;
+}
+
+.operation {
+  background-color: teal;
+  border-color: #20B2AA #006C6C #006C6C #20B2AA;
+}
+
+.operation:active {
+  border-color: #006C6C #20B2AA #20B2AA #006C6C;
+}
+
+.equal {
+  background-color: firebrick;
+  border-color: #B63F3F #8B1919 #8B1919 #B63F3F;
+}
+
+.equal:active {
+  border-color: #8B1919 #B63F3F #B63F3F #8B1919;
+}
+
+.foot {
+  font-family: calculator;
+  font-weight: bold;
+  color: #343D34;
+}
