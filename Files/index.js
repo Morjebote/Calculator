@@ -110,8 +110,9 @@ function activateOperation(){
 
 function activateEqual(){
   if(operators.includes(lastClicked) == true){
-    if(lastClicked == "+" && num.first.toString().includes("-")){
+    if((lastClicked == "+" && num.first.toString().includes("-")) || lastClicked == "-"){
       num.first = num.first * (-1);
+      seq.first = [];
     }
     display("first");
     num.second = 0;
