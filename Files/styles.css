@@ -72,7 +72,7 @@ button:active {
 
 .reset {
   width: 90px;
-  margin-left: 105px;
+  margin-left: 55px;
   background-color: gold;
   border-color: #FFEC6C #B8860B #B8860B #FFEC6C;
 }
@@ -90,12 +90,12 @@ button:active {
   border-color: #535C53 #899B89 #899B89 #535C53;
 }
 
-.operation {
+.operation, .del {
   background-color: teal;
   border-color: #20B2AA #006C6C #006C6C #20B2AA;
 }
 
-.operation:active {
+.operation:active, .del:active {
   border-color: #006C6C #20B2AA #20B2AA #006C6C;
 }
 
