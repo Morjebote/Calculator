@@ -48,13 +48,6 @@ function activateAll(){
   $(".equal").click(function(event){
     activateEqual();
   });
-
-  $("button").click(function(){
-    console.log(seq);
-    console.log(num);
-    console.log(res);
-    console.log(lastClicked);
-  });
 }
 
 function activate(e){
