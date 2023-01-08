@@ -176,7 +176,7 @@ function check() {
 
 function reduceDecimal() {
   if (num.first().toString().includes(".") == true && num.first().toString().length > 10) {
-    $(".field").text(num.first().toString().slice(0, num.first().toString().length - (num.first().toString().length - 10)));
+      $(".field").text((Math.round(num.first() * 100000000) / 100000000).toString().slice(0, num.first().toString().length - (num.first().toString().length - 10)));
   } else {
     display("first");
   }
